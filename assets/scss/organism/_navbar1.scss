@@ -1,0 +1,47 @@
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 32px;
+    &__cont2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+    &__cont2small1{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    &__drop{
+        display: none;
+    }
+    &__drop1{
+        display: none;
+    }
+}
+@include mobile {
+    .navbar1{
+        &__cont2small1{
+            display: none;
+        }
+        &__drop{
+            display: block; 
+        }
+        &__show:hover + &__drop1{
+            display: flex;
+        }
+    }
+}
+
+@include tablet{
+    .navbar1{
+        &__cont2small1{
+            display: none;
+        }
+        &__drop{
+            display: block;
+        }
+    }
+}

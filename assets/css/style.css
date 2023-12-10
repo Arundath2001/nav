@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat:wght@500&family=Noto+Sans&family=PT+Sans&family=Poppins:wght@400;500&family=Raleway&family=Roboto&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  border: 0; }
+
+* {
+  font-family: 'Poppins', sans-serif; }
+
+.icontext1 a {
+  text-decoration: none;
+  font-size: 12px;
+  background-color: navy;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 120px;
+  gap: 5px;
+  color: #fff;
+  font-weight: 500; }
+.icontext1 a:hover {
+  color: lightgreen;
+  transform: scale(1.1);
+  transition: .6s; }
+
+.dottext a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px; }
+.dottext svg {
+  color: #04d1fa; }
+.dottext a:hover {
+  font-size: 16px; }
+
+.iconsnav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 15px; }
+  .iconsnav ul a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px; }
+.iconsnav a {
+  text-decoration: none; }
+.iconsnav svg {
+  color: navy;
+  display: flex;
+  align-items: center; }
+.iconsnav p {
+  color: #757575;
+  font-size: 15px;
+  font-weight: lighter; }
+.iconsnav__svg {
+  color: lightgrey !important; }
+.iconsnav svg:hover {
+  transform: scale(1.1);
+  color: red; }
+.iconsnav p:hover {
+  font-size: 17px; }
+
+.navbar1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 32px; }
+  .navbar1__cont2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center; }
+  .navbar1__cont2small1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; }
+  .navbar1__drop {
+    display: none; }
+  .navbar1__drop1 {
+    display: none; }
+
+@media (max-width: 620px) {
+  .navbar1__cont2small1 {
+    display: none; }
+  .navbar1__drop {
+    display: block; }
+  .navbar1__show:hover + .navbar1__drop1 {
+    display: flex; } }
+@media (min-width: 621px) and (max-width: 1100px) {
+  .navbar1__cont2small1 {
+    display: none; }
+  .navbar1__drop {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */
